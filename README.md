@@ -27,13 +27,19 @@ shadowJar {
 
 - `PTERO_API_KEY` - This is a Client/Account API key, generated at /account/api (not to be mistaken with an Application API key - /admin/api)
 
+### Create new repository from template
+
+You can create a new repository, using this one as a template which will add the required workflow.
+
+If you have an existing repository, look at the next section.
+
 ### Add to your repository
 
-The `workflow.yml` file needs to be at the following location in your repository:
+The `build.yml` file needs to be at the following location in your repository:
 ```
 .github/workflows/
 ```
-You can rename `workflow.yml` to whatever you want (in case you have multiple).
+You can rename `build.yml` to whatever you want (in case you have multiple).
 
 ### Java Version
 
