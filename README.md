@@ -18,7 +18,7 @@ shadowJar {
 
 ### Set up repository Actions Secrets & Variables
 
-These can be set up at /settings/secrets. E.g. https://github.com/flytegg/ptero-build-flow/settings/secrets
+These can be set up at https://github.com/flytegg/your-repository/settings/secrets.
 
 #### Variables
 
