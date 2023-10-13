@@ -18,6 +18,8 @@ shadowJar {
 
 ### Set up repository Actions Secrets & Variables
 
+These can be set up at /settings/secrets. E.g. https://github.com/flytegg/ptero-build-flow/settings/secrets
+
 #### Variables
 
 - `PTERO_HOST` - This needs to be the host url of your Pterodactyl panel, e.g. `panel.flyte.gg`
