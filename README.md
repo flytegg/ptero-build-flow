@@ -27,6 +27,14 @@ shadowJar {
 
 - `PTERO_API_KEY` - This is a Client/Account API key, generated at /account/api (not to be mistaken with an Application API key - /admin/api)
 
+### Add to your repository
+
+The `workflow.yml` file needs to be at the following location in your repository:
+```
+.github/workflows/
+```
+You can rename `workflow.yml` to whatever you want (in case you have multiple).
+
 ### Java Version
 
 If you need, you can change the JDK vendor and version in the "Set up JDK 17" step.
