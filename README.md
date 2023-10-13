@@ -18,7 +18,7 @@ shadowJar {
 
 ### Set up repository Actions Secrets & Variables
 
-These can be set up at https://github.com/flytegg/your-repository/settings/secrets.
+These can be set up at https://github.com/your-account/your-repository/settings/secrets.
 
 #### Variables
 
