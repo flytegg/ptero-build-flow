@@ -5,7 +5,7 @@ Automatically build and deploy a Gradle or Maven project to a Pterodactyl server
 
 ### Output jar
 
-Ensure that your output jar is named the same as the repository. For example is your GitHub repository is called "example" then your output jar should be called `output.jar`.
+Ensure that your output jar is named the same as the repository. For example is your GitHub repository is called "example" then your output jar should be called `example.jar`.
 
 #### For Gradle
 To do this with shadowJar, you can add this to your shadowJar task:
