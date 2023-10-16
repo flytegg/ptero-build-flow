@@ -18,7 +18,7 @@ shadowJar {
 ```
 
 #### For Maven
-To do this with shadowJar, you can add this to your shadowJar task:
+To do this with maven, you can add this to your build inside pom.xml
 ```xml
 <build>
     <finalName>example</finalName>
