@@ -1,5 +1,5 @@
 # ptero-build-flow
-Automatically build and deploy a Gradle project to a Pterodactyl server instance, and restart it.
+Automatically build and deploy a Gradle or Maven project to a Pterodactyl server instance, and restart it.
 
 ## How to use
 
@@ -7,6 +7,7 @@ Automatically build and deploy a Gradle project to a Pterodactyl server instance
 
 Ensure that your output jar is named the same as the repository. For example is your GitHub repository is called "example" then your output jar should be called `output.jar`.
 
+#### For Gradle
 To do this with shadowJar, you can add this to your shadowJar task:
 ```kt
 shadowJar {
@@ -14,6 +15,14 @@ shadowJar {
 
     // the rest of your configuration
 }
+```
+
+#### For Maven
+To do this with shadowJar, you can add this to your shadowJar task:
+```xml
+<build>
+    <finalName>example</finalName>
+</build>
 ```
 
 ### Set up repository Actions Secrets & Variables
